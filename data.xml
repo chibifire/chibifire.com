@@ -61,14 +61,19 @@
 
   <quotes>
     <quote>
-      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
-      <name>Introducing the Godot glTF2 Scene exporter</name>
-      <website>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</website>
+      <description></description>
+      <name></name>
+      <website></website>
       <link></link>
     </quote>
   </quotes>
 
   <additionals>
+    <additional>
+      <title>Introducing the Godot glTF2 Scene exporter</title>
+      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
+      <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
+    </additional>
     <additional>
       <title></title>
       <description></description>
