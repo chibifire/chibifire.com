@@ -48,19 +48,8 @@
   </histories>
   -->
 
-  <!-- <trailers>
-    <trailer>
-      <name></name>
-
-      <!-- Pick one: -->
-      <youtube>
-        <!-- Video ID only, not the full URL -->
-      </youtube>
-      <vimeo>
-        <!-- Video ID only, not the full URL -->
-      </vimeo>
-    </trailer>
-  </trailers> -->
+  <trailers>
+  </trailers>
 
   <awards>
     <award>
