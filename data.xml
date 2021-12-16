@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
   <title>Chibifire.com</title>
-  <based-in></based-in>
+  <based-in>Canada</based-in>
   <founding-date></founding-date>
-  <website></website>
+  <website>https://chibifire.com</website>
   <press-contact>
     <!-- Mail address -->
   </press-contact>
@@ -26,9 +26,9 @@
 
   <socials>
     <social>
-      <name></name>
+      <name>Discord</name>
       <link>
-        <!-- URL starting with http or https -->
+        https://github.com/fire
       </link>
     </social>
   </socials>
@@ -71,9 +71,9 @@
 
   <quotes>
     <quote>
-      <description></description>
-      <name></name>
-      <website></website>
+      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
+      <name>Introducing the Godot glTF2 Scene exporter</name>
+      <website>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</website>
       <link></link>
     </quote>
   </quotes>
@@ -82,7 +82,7 @@
     <additional>
       <title></title>
       <description></description>
-      <link></link>
+      <link>r</link>
     </additional>
   </additionals>
 
@@ -98,11 +98,8 @@
 
   <contacts>
     <contact>
-      <name></name>
-
-      <!-- Pick one: -->
-      <mail></mail>
-      <link></link>
+      <name>K. S. Ernest (iFire) Lee</name>
+      <mail>ernest.lee@chibifire.com</mail>
     </contact>
   </contacts>
 </company>
