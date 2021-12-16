@@ -48,7 +48,7 @@
   </histories>
   -->
 
-  <trailers>
+  <!-- <trailers>
     <trailer>
       <name></name>
 
@@ -60,7 +60,7 @@
         <!-- Video ID only, not the full URL -->
       </vimeo>
     </trailer>
-  </trailers>
+  </trailers> -->
 
   <awards>
     <award>
