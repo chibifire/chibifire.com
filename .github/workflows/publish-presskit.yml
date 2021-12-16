@@ -1,3 +1,17 @@
+# git checkout gh-pages
+# touch .nojekyll
+# git add .nojekyll
+# git commit -m "Add .nojekyll for Presskit"
+# git push
+#
+# Finally, you can enable your GitHub page:
+#
+#     On GitHub, go to Settings > GitHub Pages
+#     Select the gh-pages branch as the "Source"
+#     Then, select the / (root) folder
+#
+# You should now be able to see your presskit at https://<username>.github.io/<repository>/. It will be re-built and published every time you push on master.
+
 name: Publish Presskit
 on:
   push:
