@@ -53,6 +53,7 @@
     </history>
   </histories>
 
+<!--
   <trailers>
   </trailers>
 
@@ -62,7 +63,6 @@
       <info></info>
     </award>
   </awards>
-
   <quotes>
     <quote>
       <description></description>
@@ -71,7 +71,7 @@
       <link></link>
     </quote>
   </quotes>
-
+-->
   <additionals>
     <additional>
       <title>Introducing the Godot glTF2 Scene exporter</title>
