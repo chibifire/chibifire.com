@@ -34,18 +34,12 @@
 
   <description></description>
 
-  <!-- Choose between a single block: -->
-  <history></history>
-
-  <!-- Or multiple blocks: -->
-  <!--
   <histories>
     <history>
-      <header></header>
-      <text></text>
+      <header>Khronos Advisor - 3D Formats 2021</header>
+      <text>https://www.khronos.org/advisors</text>
     </history>
   </histories>
-  -->
 
   <trailers>
   </trailers>
@@ -71,11 +65,6 @@
       <title>Introducing the Godot glTF2 Scene exporter</title>
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
-    </additional>
-    <additional>
-      <title></title>
-      <description></description>
-      <link></link>
     </additional>
   </additionals>
 
