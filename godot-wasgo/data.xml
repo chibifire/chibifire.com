@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>PENDING - Godot Engine WASM scripting</title>
+  <website>https://github.com/V-Sekai/WasGo</website>
+
+  <description>Sandboxed WASM user scripting engine for Godot Engine </description>
+
+  <features>
+    <feature>Support WASM</feature>
+  </features>
+</product>
