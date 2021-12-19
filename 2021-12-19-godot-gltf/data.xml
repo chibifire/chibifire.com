@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<product>
+  <title>Godot Engine GLTF</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Godot Engine GLTF Support</description>
+
+  <features>
+    <feature>3D format</feature>
+  </features>
+
+  <credits>
+    <credit>
+      <person>K. S. Ernest (iFire) Lee</person>
+      <role>Collaborator</role>
+    </credit>
+    <credit>
+      <person>(Lyuma)</person>
+      <role>Collaborator</role>
+    </credit>
+  </credits>
+</product>
