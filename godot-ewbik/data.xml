@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>PENDING - Godot EWBIK Inverse Kinematics</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Godot Engine 4.0 version of EWBIK for inverse kinematics.</description>
+
+  <features>
+    <feature>Full Body Inverse Kinematics Solver</feature>
+  </features>
+</product>
