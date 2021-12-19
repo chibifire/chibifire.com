@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<product>
+  <title>Godot Virtual Market 2021</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Godot Booth at Hikky's Virtual Market 2021</description>
+
+  <features>
+    <feature>Convention Booth</feature>
+  </features>
+
+  <download>https://example.com/video.mp4</download>
+
+  <trailers>
+    <trailer>
+      <name>Godot - Winter 2021 Virtual Market</name>
+      <download>images/godot_at_vket_academy_night.mp4</download>
+    </trailer>
+  </trailers>
+
+  <credits>
+    <credit>
+      <person>K. S. Ernest (iFire) Lee</person>
+      <role>Circle Collaborator</role>
+    </credit>
+    <credit>
+      <person>(Saracen)</person>
+      <role>Circle Collaborator</role>
+    </credit>
+    <credit>
+      <person>(Lyuma)</person>
+      <role>Circle Collaborator</role>
+    </credit>
+    <credit>
+      <person>Tokage</person>
+      <role>Circle Collaborator</role>
+    </credit>
+  </credits>
+
+  <additionals>
+    <additional>
+      <title>Winter 2021 Virtual Market</title>
+      <description>The worlds largest VR festival.</description>
+      <link>https://winter2021.vket.com/en</link>
+    </additional>
+  </additionals>
+</product>
