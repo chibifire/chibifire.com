@@ -5,6 +5,10 @@
 
   <description>Support VRM avatars in Godot Engine.</description>
 
+  <release-dates>
+    <release-date>May 15, 2021</release-date>
+  </release-dates>
+
   <features>
     <feature>3D format</feature>
     <feature>MToon toon shading</feature>
