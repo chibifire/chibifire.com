@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Godot SVG Using ThorVG</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Port Godot Engine 4.0 to use ThorVG as a platform-independent portable library for drawing vector-based scene and animation.</description>
+
+  <features>
+    <feature>Support SVG vector graphics</feature>
+    <feature>Support embedded rasters images (JPG,PNG)</feature>
+    <feature>Support embedded vector images (SVG)</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>ThorVG</title>
+      <description>ThorVG is a platform-independent portable library for drawing vector-based scenes and animation.</description>
+      <link>https://github.com/Samsung/thorvg</link>
+    </additional>
+  </additionals>
+</product>
