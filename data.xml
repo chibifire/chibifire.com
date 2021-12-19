@@ -37,19 +37,17 @@
   <histories>
     <history>
       <header>Khronos Advisor - 3D Formats 2021</header>
-      <text>https://www.khronos.org/advisors</text>
     </history>
     <history>
       <header>Godot Engine | 3D Asset Pipeline, Animations, Visual Script and others. | 2017 - Ongoing</header>
-      <text>https://godotengine.org</text>
     </history>
     <history>
       <header>1st Place | Unity vs Unreal vs Godot: The Threeway Battle (Season 2)</header>
-      <text>https://sternflowers.itch.io/roaming-ravenous</text>
+      <text>Stern Flowers won first place using Godot Engine.</text>
     </history>
     <history>
       <header>Offworld Industries | Developer Operations | 2016 - 2018</header>
-      <text>https://www.offworldindustries.com/</text>
+      <text>Continuously delivered released Squad, handled Unreal Engine 4 upgrades, managed Perforce version control and administrated information technologies.</text>
     </history>
     <history>
       <header>Mektek Studios | Stompy Bot | Heavy Gear Assault | Systems Professional | 2014 - 2016</header>
@@ -78,11 +76,23 @@
 -->
   <additionals>
     <additional>
+      <title>Godot Engine</title>
+      <description>A opensource game engine.</description>
+      <link>https://godotengine.org</link>
+    </additional>
+    <additional>
       <title>Introducing the Godot glTF2 Scene exporter</title>
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
     </additional>
+    <additional>
+      <title>1st Place | Unity vs Unreal vs Godot: The Threeway Battle (Season 2)</title>
+      <description></description>
+      <link>  https://sternflowers.itch.io/roaming-ravenous</link>
+    </additional>
   </additionals>
+
+      <text></text>
 
   <credits>
     <credit>
