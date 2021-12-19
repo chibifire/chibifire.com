@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>PENDING - Godot Blender Integration</title>
+  <title>PENDING - Godot Blender Import</title>
   <website>https://github.com/godotengine/godot</website>
 
   <description>Integrate Godot Engine 4 with Blender.</description>
