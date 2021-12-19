@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>PENDING - Godot Blender Integration</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Integrate Godot Engine 4 with Blender.</description>
+
+  <features>
+    <feature>Open Blender files as Godot Engine scenes.</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>Blender</title>
+      <description>Blender is a free and open-source 3D computer graphics software toolset used for creating animated films, visual effects, art, 3D printed models, motion graphics, interactive 3D applications, virtual reality, and computer games.</description>
+      <link>https://www.blender.org/</link>
+    </additional>
+  </additionals>
+</product>
