@@ -3,7 +3,7 @@
   <title>Godot Engine at HIKKY Virtual Market Winter 2021</title>
   <website>https://github.com/godotengine/godot</website>
 
-  <description>Godot Booth at Hikky's Virtual Market 2021</description>
+  <description>Godot Booth at Hikky's Virtual Market 2021 located at Vket Academy “Electro-charged School Festival!” </description>
 
   <features>
     <feature>Convention Booth</feature>
@@ -43,6 +43,12 @@
       <title>Winter 2021 Virtual Market</title>
       <description>The worlds largest VR festival.</description>
       <link>https://winter2021.vket.com/en</link>
+    </additional>
+    <additional>
+      <title>Godot Engine Mini Booth</title>
+      <description>Vket Academy “Electro-charged School Festival!”
+Vket Academy - Night - 1-A</description>
+      <link>https://winter2021.vket.com/en/circle/226</link>
     </additional>
   </additionals>
 </product>
