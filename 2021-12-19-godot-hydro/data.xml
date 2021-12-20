@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<product>
+  <title>Godot Engine Hydro</title>
+  <website>https://github.com/godot-extended-libraries/hydro</website>
+
+  <description>Hydro is a module for Godot Engine which allows rigid bodies to behave realistically in water.</description>
+
+  <features>
+    <feature>3D buoyance simulation</feature>
+  </features>
+
+  <credits>
+    <credit>
+      <person>(Jonri)</person>
+      <role>Collaborator</role>
+    </credit>
+    <credit>
+      <person>K. S. Ernest (iFire) Lee</person>
+      <role>Collaborator</role>
+    </credit>
+  </credits>
+</product>
