@@ -7,6 +7,7 @@
 
   <features>
     <feature>3D format</feature>
+    <feature>Buffer based runtime import</feature>
   </features>
 
   <credits>
