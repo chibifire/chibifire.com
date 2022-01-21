@@ -3,7 +3,7 @@
   <title>PENDING - Godot SVG Using ThorVG</title>
   <website>https://github.com/godotengine/godot</website>
 
-  <description>Port Godot Engine 4.0 to use ThorVG as a platform-independent portable library for drawing vector-based scene and animation.</description>
+  <description>Merged ThorVG into Godot Engine 4.0 as a platform-independent portable library for drawing vector-based scene and animation.</description>
 
   <features>
     <feature>Support SVG vector graphics</feature>
