@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>PENDING - Godot SVG Using ThorVG</title>
+  <title>Godot SVG Using ThorVG</title>
   <website>https://github.com/godotengine/godot</website>
 
   <description>Merged ThorVG into Godot Engine 4.0 as a platform-independent portable library for drawing vector-based scene and animation.</description>
