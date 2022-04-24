@@ -61,26 +61,6 @@
       <text>Worked on Heavy Gear Assault.</text>
     </history>
   </histories>
-
-<!--
-  <trailers>
-  </trailers>
-
-  <awards>
-    <award>
-      <description></description>
-      <info></info>
-    </award>
-  </awards>
-  <quotes>
-    <quote>
-      <description></description>
-      <name></name>
-      <website></website>
-      <link></link>
-    </quote>
-  </quotes>
--->
   <additionals>
     <additional>
       <title>Godot Engine</title>
@@ -98,9 +78,6 @@
       <link>https://github.com/omigroup/OMI</link>
     </additional>
   </additionals>
-
-      <text></text>
-
   <credits>
     <credit>
       <person>K. S. Ernest (iFire) Lee</person>
@@ -115,7 +92,6 @@
       <role>Developer, V-Sekai</role>
     </credit>
   </credits>
-
   <contacts>
     <contact>
       <name>K. S. Ernest (iFire) Lee</name>
