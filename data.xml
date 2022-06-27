@@ -91,30 +91,7 @@
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
     </additional>
-    <additional>
-      <title>Open Metaverse Interoperability</title>
-      <description>Protocols for interoperable virtual worlds</description>
-      <link>https://github.com/omigroup/OMI</link>
-    </additional>
   </additionals>
-  <credits>
-    <credit>
-      <person>K. S. Ernest (iFire) Lee</person>
-      <role>Developer, Chibifire.com</role>
-    </credit>
-    <credit>
-      <person>(Lyuma)</person>
-      <role>Developer, V-Sekai</role>
-    </credit>
-    <credit>
-      <person>(Saracen)</person>
-      <role>Developer, V-Sekai</role>
-    </credit>
-    <credit>
-      <person>(MMMaellon)</person>
-      <role>Developer, V-Sekai</role>
-    </credit>
-  </credits>
   <contacts>
     <contact>
       <name>K. S. Ernest (iFire) Lee</name>
