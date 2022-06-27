@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>PENDING - V-Sekai</title>
+  <website>https://github.com/V-Sekai</website>
+
+  <description>V-Sekai is a small group of developers and VR enthusiasts who felt there was a need for an open-source ecosystem focused on VR. We believe social VR should be a truly community-driven experience. For this to be realised, we believe the entire software stack should be available, moddable, and tweakable from the source up, which is why a lot of our projects focus on the MIT-Licensed Godot Engine</description>
+
+  <credits>
+    <credit>
+      <person>(MMMaellon)</person>
+      <role>Collaborator</role>
+    </credit>
+    <credit>
+      <person>K. S. Ernest (iFire) Lee</person>
+      <role>Collaborator</role>
+    </credit>
+    <credit>
+      <person>(Lyuma)</person>
+      <role>Collaborator</role>
+    </credit>
+    <credit>
+      <person>(Saracen)</person>
+      <role>Collaborator</role>
+    </credit>
+  </credits>
+</product>
