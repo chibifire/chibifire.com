@@ -67,6 +67,21 @@
   </histories>
   <additionals>
     <additional>
+      <title>V-Sekai Community</title>
+      <description>Protocols for interoperable virtual worlds</description>
+      <link>https://github.com/V-Sekai</link>
+    </additional>
+    <additional>
+      <title>V-Sekai</title>
+      <description>Protocols for interoperable virtual worlds</description>
+      <link>https://v-sekai.org</link>
+    </additional>
+    <additional>
+      <title>Open Metaverse Interoperability</title>
+      <description>Protocols for interoperable virtual worlds</description>
+      <link>https://github.com/omigroup/OMI</link>
+    </additional>
+    <additional>
       <title>Godot Engine</title>
       <description>An opensource game engine.</description>
       <link>https://godotengine.org</link>
@@ -75,11 +90,6 @@
       <title>Introducing the Godot glTF2 Scene exporter</title>
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
-    </additional>
-    <additional>
-      <title>Open Metaverse Interoperability</title>
-      <description>Protocols for interoperable virtual worlds</description>
-      <link>https://github.com/omigroup/OMI</link>
     </additional>
   </additionals>
   <contacts>
