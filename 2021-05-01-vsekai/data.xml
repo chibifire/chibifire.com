@@ -12,7 +12,20 @@
     <feature>A security-focused sandboxed scripting environment backed by WASM</feature>
     <feature>Customisable servers with their own individual game rules</feature>
   </features>
-  
+  <socials>
+    <social>
+      <name>V-Sekai</name>
+      <link>https://V-Sekai.org</link>
+    </social>
+    <social>
+      <name>Twitter @vsekaiofficial</name>
+      <link>https://twitter.com/vsekaiofficial</link>
+    </social>
+    <social>
+      <name>Discord</name>
+      <link>https://discord.gg/7BQDHesck8</link>
+    </social>
+  </socials>
   <description>V-Sekai is a small group of developers and VR enthusiasts who felt there was a need for an open-source ecosystem focused on VR. We believe social VR should be a truly community-driven experience. For this to be realised, we believe the entire software stack should be available, moddable, and tweakable from the source up, which is why a lot of our projects focus on the MIT-Licensed Godot Engine</description>
 
   <credits>
