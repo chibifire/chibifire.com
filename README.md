@@ -21,7 +21,7 @@ CXXFLAGS="--std=c++17" npm install -g presskit
 export PATH=~/.local/bin/:$PATH >> ~/.bashrc
 presskit build
 ```
-s
+
 ## Manuals
 
 http://pixelnest.io/presskit.html/product/
