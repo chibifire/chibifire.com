@@ -4,9 +4,6 @@
   <based-in>Canada</based-in>
   <founding-date>2004</founding-date>
   <website>https://chibifire.com</website>
-  <press-contact>
-    ernest.lee@chibifire.com
-  </press-contact>
 
   <analytics>UA-53463128-1</analytics>
 
@@ -96,6 +93,10 @@
     </additional>
   </additionals>
   <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <link>https://savvycal.com/fire/meet</link>
+    </contact>
     <contact>
       <name>K. S. Ernest (iFire) Lee</name>
       <mail>ernest.lee@chibifire.com</mail>
