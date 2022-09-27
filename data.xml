@@ -19,18 +19,25 @@
     </line>
   </address>
 
-  <socials>
-    <social>
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <mail>ernest.lee@chibifire.com</mail>
+    </contact>
+    <contact>
       <name>Github @fire</name>
       <link>https://github.com/fire</link>
-    </social>
-    <social>
+    </contact>
+    <contact>
       <name>Twitter @iFiery</name>
       <link>https://twitter.com/iFiery</link>
-    </social>
-    <social>
+    </contact>
+    <contact>
       <name>Discord iFire#6518</name>
-    </social>
+    </contact>
+  </contacts>
+
+  <socials>
   </socials>
 
   <description>Godot Engine is ama-aaa-zing. Currently in a full-time position. Send a hello message.</description>
