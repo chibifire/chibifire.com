@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Godot EWBIK Inverse Kinematics</title>
+  <title>Godot EWBIK Pose Solver</title>
   <website>https://github.com/fire/ewbik</website>
 
   <description>Godot Engine 4.0 version of EWBIK for inverse kinematics.</description>
