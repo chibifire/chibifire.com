@@ -4,6 +4,8 @@
   <based-in>Canada</based-in>
   <founding-date>2004</founding-date>
   <website>https://chibifire.com</website>
+  
+  <press-contact>ernest.lee@chibiifre.com</press-contact>
 
   <analytics>UA-53463128-1</analytics>
 
@@ -19,25 +21,18 @@
     </line>
   </address>
 
-  <contacts>
-    <contact>
-      <name>Inquiries</name>
-      <mail>ernest.lee@chibifire.com</mail>
-    </contact>
-    <contact>
+  <socials>
+    <social>
       <name>Github @fire</name>
       <link>https://github.com/fire</link>
-    </contact>
-    <contact>
+    </social>
+    <social>
       <name>Twitter @iFiery</name>
       <link>https://twitter.com/iFiery</link>
-    </contact>
-    <contact>
+    </social>
+    <social>
       <name>Discord iFire#6518</name>
-    </contact>
-  </contacts>
-
-  <socials>
+    </social>
   </socials>
 
   <description>Godot Engine is ama-aaa-zing. Currently in a full-time position. Send a hello message.</description>
