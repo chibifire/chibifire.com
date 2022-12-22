@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Godot EWBIK Pose Solver</title>
-  <website>https://github.com/fire/ewbik</website>
+  <title>Godot Many Bone IK Pose Solver</title>
+  <website>https://github.com/V-Sekai/many_bone_ik</website>
 
-  <description>Godot Engine 4.0 version of EWBIK for inverse kinematics.</description>
+  <description>Many Bone IK is a Godot Engine 4.0 version of EWBIK for inverse kinematics.</description>
 
   <features>
     <feature>Full Body Inverse Kinematics Solver</feature>
