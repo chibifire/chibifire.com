@@ -31,8 +31,9 @@
       <link>https://twitter.com/iFiery</link>
     </social>
     <social>
-    <name>V-Sekai Discord</name>
-    <link>https://discord.gg/7BQDHesck8</link>
+      <name>V-Sekai Discord</name>
+      <link>https://discord.gg/7BQDHesck8</link>
+    </social>
   </socials>
 
   <description>Godot Engine is amazing. Send a hello message.</description>
