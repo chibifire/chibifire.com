@@ -105,6 +105,11 @@
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
     </additional>
+    <additional>
+      <title>Godot Has A New FBX Importer... And It's FASSSSSST!</title>
+      <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
+      <description>With the upcoming release of Godot 4.3, a major new feature has been added to Godot, FBX support. But "Mike, Godot already has FBX support" you might be yelling at the screen, and yes... you're right. But this is different in 3 ways...</description>
+    </additional>
   </additionals>
   <contacts>
     <contact>
