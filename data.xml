@@ -110,6 +110,11 @@
       <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
       <description>With the upcoming release of Godot 4.3, a major new feature has been added to Godot, FBX support. But "Mike, Godot already has FBX support" you might be yelling at the screen, and yes... you're right. But this is different in 3 ways...</description>
     </additional>
+    <additional>
+      <title>GDC 2024: Retrospective</title>
+      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
+      <description>With the team returning from its GDC adventures, it is once again time to tell those back home about memories made. We hope you didn’t miss us too much!</description>
+    </additional>
   </additionals>
   <contacts>
     <contact>
