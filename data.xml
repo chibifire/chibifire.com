@@ -106,19 +106,19 @@
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
     </additional>
     <additional>
-      <title>Godot Foundation Update 2023</title>
-      <link>https://godotengine.org/article/godot-foundation-update-2023/</link>
-      <description>This has been a monumental year for the Godot Foundation.</description>
+      <title>GDC 2024: Retrospective</title>
+      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
+      <description>The team has returned from GDC, and it's time to share the experiences and memories made. We hope our absence wasn't too hard on you!</description>
     </additional>
     <additional>
       <title>Godot Has A New FBX Importer... And It's FASSSSSST!</title>
       <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
-      <description>With the upcoming release of Godot 4.3, a major new feature has been added to Godot, FBX support. But "Mike, Godot already has FBX support" you might be yelling at the screen, and yes... you're right. But this is different in 3 ways...</description>
+      <description>In the forthcoming Godot 4.3 release, a significant new feature is being introduced - FBX support. You might be thinking, "But Mike, doesn't Godot already have FBX support?" Yes, it does. However, this one is different in three ways...</description>
     </additional>
     <additional>
-      <title>GDC 2024: Retrospective</title>
-      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
-      <description>With the team returning from its GDC adventures, it is once again time to tell those back home about memories made. We hope you didn’t miss us too much!</description>
+      <title>Godot Foundation Update 2023</title>
+      <link>https://godotengine.org/article/godot-foundation-update-2023/</link>
+      <description>The past year has been a landmark one for the Godot Foundation.</description>
     </additional>
   </additionals>
   <contacts>
