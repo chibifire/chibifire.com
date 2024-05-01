@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
-  <title>Chibifire.com</title>
+  <title>Chibifire.com (Pronounced as chee-bee-fire)</title>
   <based-in>Canada</based-in>
   <founding-date>2004</founding-date>
   <website>https://chibifire.com</website>
@@ -10,15 +10,9 @@
   <analytics>G-4MM20XCEW7</analytics>
 
   <address>
-    <line>
-      (Greater Vancouver)
-    </line>
-    <line>
-      British Columbia
-    </line>
-    <line>
-      Canada
-    </line>
+    <line>(Greater Vancouver)</line>
+    <line>British Columbia</line>
+    <line>Canada</line>
   </address>
 
   <socials>
@@ -37,7 +31,7 @@
   </socials>
 
   <description>
-    Hello! I am Ernest (iFire) Lee, a developer based in Canada. My passion lies in emerging technologies like game engines, specifically Godot Engine. One of my key responsibilities is maintaining Godot Engine's glTF 3D pipeline, which involves exporting and importing functionalities. Additionally, I collaborate with the OMIGROUP to ensure metaverse interoperability and help keep an importer for portable avatar format VRM in Godot Engine.
+    Meet Ernest (iFire) Lee, a passionate developer based in Canada. Specializing in emerging technologies like game engines, particularly the Godot Engine, he plays a pivotal role in maintaining its glTF 3D pipeline. This includes managing both exporting and importing functionalities. He also works closely with the OMIGROUP to ensure metaverse interoperability and maintain an importer for the portable avatar format VRM in the Godot Engine.
   </description>
   <histories>
     <history>
