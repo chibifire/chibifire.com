@@ -114,6 +114,11 @@
       <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
       <description>The team has returned from GDC, and it's time to share the experiences and memories made. We hope our absence wasn't too hard on you!</description>
     </additional>
+    <additional>
+      <title>Introducing the improved ufbx importer in Godot 4.3</title>
+      <link>https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/</link>
+      <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
+    </additional>
   </additionals>
   <contacts>
     <contact>
