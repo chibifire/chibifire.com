@@ -6,7 +6,7 @@
     
     <title>Chibifire.com (Pronounced as chee-bee-fire)</title>
     
-    <link rel="shortcut icon" href="images/favicon.ico?t=1735593740250">
+    <link rel="shortcut icon" href="images/favicon.ico?t=1735602082095">
     
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/master.css">
@@ -281,7 +281,7 @@
               <dt>Adding CSG Manifold to Godot Engine 4.4</dt>
               <dd>
                 In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project, https://github.com/elalish/manifold, focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which, according to college courses on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
-          After the announcement, I followed the standard procedure of posting an issue before starting work on the technology. By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
+          By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
           By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.
                <a href="https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6">godotengine.org</a>.
               </dd>
