@@ -6,7 +6,7 @@
     
     <title>Chibifire.com (Pronounced as chee-bee-fire)</title>
     
-    <link rel="shortcut icon" href="images/favicon.ico?t=1732893915339">
+    <link rel="shortcut icon" href="images/favicon.ico?t=1735592277787">
     
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/master.css">
@@ -272,7 +272,14 @@
               </dd>
               <dt>Introducing the improved ufbx importer in Godot 4.3</dt>
               <dd>
-                Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3. <a href="https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/">godotengine.org</a>.
+                Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3. <a href="https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/">godotengine.org</a>.
+              </dd>
+              <dt>Adding CSG Manifold to Godot Engine 4.4</dt>
+              <dd>
+                In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which according to college slides on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
+          After the announcement, I followed the standard procedure of posting an issue before starting work on the technology. By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
+          By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 19,000 lines, and there was now a cool table on the manifold site listing integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.
+               <a href="https://godotengine.org/article/dev-snapshot-godot-4-4-dev-7/">godotengine.org</a>.
               </dd>
             </dl>
           </section>
