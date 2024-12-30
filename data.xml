@@ -120,6 +120,11 @@
       <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
     </additional>
     <additional>
+      <title>Introducing Godot Sandbox</title>
+      <link>https://github.com/libriscv/godot-sandbox</link>
+      <description>In-editor scripting and sandboxing for Godot </description>
+    </additional>
+    <additional>
       <title>Adding CSG Manifold to Godot Engine 4.4</title>
       <link>https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6</link>
       <description>In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project, https://github.com/elalish/manifold, focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which, according to college courses on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
