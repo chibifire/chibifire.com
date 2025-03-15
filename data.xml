@@ -51,9 +51,9 @@ By July 2024, the code was functional but still had five significant bugs, and i
       <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
     </additional>
     <additional>
-      <title>Introducing Godot Sandbox</title>
-      <link>https://github.com/libriscv/godot-sandbox</link>
-      <description>In-editor scripting and sandboxing for Godot </description>
+      <title>Introducing Godot IREE</title>
+      <link>https://github.com/iree-gd/iree.gd</link>
+      <description>Running Pre-trained Machine Learning Models in Godot.</description>
     </additional>
     <additional>
       <title>Introducing the Godot glTF2 Scene exporter</title>
