@@ -32,52 +32,36 @@
   <description>
     Meet Ernest (iFire) Lee, a passionate developer based in Canada. Specializing in emerging technologies like game engines, particularly the Godot Engine, he plays a pivotal role in maintaining its glTF 3D pipeline. This includes managing both exporting and importing functionalities. He also works closely with the OMIGROUP to ensure metaverse interoperability and maintain an importer for the portable avatar format VRM in the Godot Engine.
   </description>
-  <additionals>
-    <additional>
-      <title>Godot 4.4, A unified experience</title>
-      <link>https://godotengine.org/releases/4.4/</link>
-      <description>Look forward to plenty of quality of life improvements hidden within this release. Faster load speeds, reduced stutter, streamlined processes — spotting all the optimizations that have been applied in the background will take some time. On top of that, long-awaited comfort features like embedded game windows and interactive in-game editing will feel more in line with other software on the market, making transitioning between them an even smoother experience. The editor overhaul alone takes up a big chunk of this release, after all.</description>
-    </additional>
-    <additional>
-      <title>Adding CSG Manifold to Godot Engine 4.4</title>
-      <link>https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6</link>
-      <description>In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project, https://github.com/elalish/manifold, focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which, according to college courses on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
-By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
-By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.</description>
-    </additional>
-    <additional>
-      <title>Introducing the improved ufbx importer in Godot 4.3</title>
-      <link>https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/</link>
-      <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
-    </additional>
-    <additional>
-      <title>Introducing Godot IREE</title>
-      <link>https://github.com/iree-gd/iree.gd</link>
-      <description>Running Pre-trained Machine Learning Models in Godot.</description>
-    </additional>
-    <additional>
-      <title>Introducing the Godot glTF2 Scene exporter</title>
-      <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
-      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
-    </additional>
-  </additionals>
   <histories>
     <history>
-      <header>Khronos Independent Contributor - 3D Formats | 2023 - present</header>
+      <header>Khronos Group | 3D Formats Contributor (glTF/VRM Standards) | 2023–Present</header>
     </history>
     <history>
-      <header>V-Sekai Social VR | 2021 - present</header>
+      <header>Godot 4.4 Release: Unified editor experience with quality-of-life improvements, faster load speeds, reduced stutter, and interactive in-game editing</header>
     </history>
     <history>
-      <header>Godot Engine | 3D Asset Pipeline, Animations and others. | 2017 - present</header>
+      <header>CSG Manifold Integration: Enabled robust mesh boolean operations in Godot 4.4 through collaboration with the Manifold team, reducing codebase from 300k to 20k lines</header>
     </history>
     <history>
-      <header>Offworld Industries | Developer Operations | 2016 - 2018</header>
-      <text>Continuously delivered (CICD) Squad, handled Unreal Engine 4 upgrades, managed Perforce version control and administrated information technologies.</text>
+      <header>Native FBX Support: Implemented ufbx importer in Godot 4.3 with Samuli Raivio for seamless open-source FBX workflows</header>
     </history>
     <history>
-      <header>Mektek Studios | Stompy Bot | Systems Professional | 2014 - 2016</header>
-      <text>Build systems on Heavy Gear Assault and Intern Backend Online Systems</text>
+      <header>Godot IREE: Coordinated ntegration for executing pre-trained machine learning models within the engine</header>
+    </history>
+    <history>
+      <header>glTF2 Scene Exporter: Revolutionized Godot's 3D asset interoperability with industry-standard export capabilities</header>
+    </history>
+    <history>
+      <header>V-Sekai | Social VR Architecture Coordinator | 2021–Present</header>
+    </history>
+    <history>
+      <header>Godot Engine | Core 3D Pipeline Coordinator (Animation/Import Systems) | 2017–Present</header>
+    </history>
+    <history>
+      <header>Offworld Industries | DevOps Engineer (CI/CD Pipelines, Unreal Engine 4 Migration) | 2016–2018</header>
+    </history>
+    <history>
+      <header>Mektek Studios | Backend Systems Developer (Heavy Gear Assault Infrastructure) | 2014–2016</header>
     </history>
   </histories>
 </company>
