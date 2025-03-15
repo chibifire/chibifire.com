@@ -132,6 +132,12 @@ By May 2022, I had a prototype up and running, albeit with 300,000 lines of code
 By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.
     </description>
     </additional>
+    <additional>
+      <title>Godot 4.4, A unified experience</title>
+      <link>https://godotengine.org/releases/4.4/</link>
+      <description>Look forward to plenty of quality of life improvements hidden within this release. Faster load speeds, reduced stutter, streamlined processes — spotting all the optimizations that have been applied in the background will take some time. On top of that, long-awaited comfort features like embedded game windows and interactive in-game editing will feel more in line with other software on the market, making transitioning between them an even smoother experience. The editor overhaul alone takes up a big chunk of this release, after all.
+      </description>
+    </additional>
   </additionals>
   <contacts>
     <contact>
