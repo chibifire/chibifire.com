@@ -78,7 +78,50 @@
       <text>Build systems on Heavy Gear Assault.</text>
     </history>
   </histories>
+
   <additionals>
+    <additional>
+      <title>Godot 4.4, A unified experience</title>
+      <link>https://godotengine.org/releases/4.4/</link>
+      <description>Look forward to plenty of quality of life improvements hidden within this release. Faster load speeds, reduced stutter, streamlined processes — spotting all the optimizations that have been applied in the background will take some time. On top of that, long-awaited comfort features like embedded game windows and interactive in-game editing will feel more in line with other software on the market, making transitioning between them an even smoother experience. The editor overhaul alone takes up a big chunk of this release, after all.</description>
+    </additional>
+    <additional>
+      <title>Adding CSG Manifold to Godot Engine 4.4</title>
+      <link>https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6</link>
+      <description>In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project, https://github.com/elalish/manifold, focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which, according to college courses on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
+By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
+By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.</description>
+    </additional>
+    <additional>
+      <title>GDC 2024: Retrospective</title>
+      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
+      <description>The team has returned from GDC, and it's time to share the experiences and memories made. We hope our absence wasn't too hard on you!</description>
+    </additional>
+    <additional>
+      <title>Introducing the improved ufbx importer in Godot 4.3</title>
+      <link>https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/</link>
+      <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
+    </additional>
+    <additional>
+      <title>Godot Has A New FBX Importer... And It's FASSSSSST!</title>
+      <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
+      <description>In the forthcoming Godot 4.3 release, a significant new feature is being introduced - FBX support. You might be thinking, "But Mike, doesn't Godot already have FBX support?" Yes, it does. However, this one is different in three ways...</description>
+    </additional>
+    <additional>
+      <title>Introducing Godot Sandbox</title>
+      <link>https://github.com/libriscv/godot-sandbox</link>
+      <description>In-editor scripting and sandboxing for Godot </description>
+    </additional>
+    <additional>
+      <title>Godot Foundation Update 2023</title>
+      <link>https://godotengine.org/article/godot-foundation-update-2023/</link>
+      <description>The past year has been a landmark one for the Godot Foundation.</description>
+    </additional>
+    <additional>
+      <title>Introducing the Godot glTF2 Scene exporter</title>
+      <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
+      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
+    </additional>
     <additional>
       <title>V-Sekai Social VR</title>
       <description>V-Sekai is a community of enthusiasts building a next-generation social and #gaming VR #platform powered by the Godot Engine.</description>
@@ -93,50 +136,6 @@
       <title>Godot Engine</title>
       <description>An open-source game engine.</description>
       <link>https://godotengine.org</link>
-    </additional>
-    <additional>
-      <title>Introducing the Godot glTF2 Scene exporter</title>
-      <description>We hope that this makes our lives better with asset pipelines for 3D</description>
-      <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
-    </additional>
-    <additional>
-      <title>Godot Foundation Update 2023</title>
-      <link>https://godotengine.org/article/godot-foundation-update-2023/</link>
-      <description>The past year has been a landmark one for the Godot Foundation.</description>
-    </additional>
-    <additional>
-      <title>Godot Has A New FBX Importer... And It's FASSSSSST!</title>
-      <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
-      <description>In the forthcoming Godot 4.3 release, a significant new feature is being introduced - FBX support. You might be thinking, "But Mike, doesn't Godot already have FBX support?" Yes, it does. However, this one is different in three ways...</description>
-    </additional>
-    <additional>
-      <title>GDC 2024: Retrospective</title>
-      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
-      <description>The team has returned from GDC, and it's time to share the experiences and memories made. We hope our absence wasn't too hard on you!</description>
-    </additional>
-    <additional>
-      <title>Introducing the improved ufbx importer in Godot 4.3</title>
-      <link>https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/</link>
-      <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
-    </additional>
-    <additional>
-      <title>Introducing Godot Sandbox</title>
-      <link>https://github.com/libriscv/godot-sandbox</link>
-      <description>In-editor scripting and sandboxing for Godot </description>
-    </additional>
-    <additional>
-      <title>Adding CSG Manifold to Godot Engine 4.4</title>
-      <link>https://godotengine.org/article/dev-snapshot-godot-4-4-dev-6</link>
-      <description>In April 2022, while browsing Y Combinator News, a Google developer released a new GitHub project, https://github.com/elalish/manifold, focused on mesh booleans for 3D manufacturing. This offered a significant departure from traditional NURBS-based methods. The innovation promised that if a mesh were manifold, it would remain manifold through operations like addition, subtraction, and overlap, which, according to college courses on mesh constructive solid geometry (CSG), was foundational for creating manufacturable objects.
-By May 2022, I had a prototype up and running, albeit with 300,000 lines of code that contained several bugs, which left me feeling demotivated. Over the following months, I collaborated with the manifold team to eliminate dependencies, ultimately removing the last one—TBB, which allowed for CPU core utilization—making it optional.
-By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.
-    </description>
-    </additional>
-    <additional>
-      <title>Godot 4.4, A unified experience</title>
-      <link>https://godotengine.org/releases/4.4/</link>
-      <description>Look forward to plenty of quality of life improvements hidden within this release. Faster load speeds, reduced stutter, streamlined processes — spotting all the optimizations that have been applied in the background will take some time. On top of that, long-awaited comfort features like embedded game windows and interactive in-game editing will feel more in line with other software on the market, making transitioning between them an even smoother experience. The editor overhaul alone takes up a big chunk of this release, after all.
-      </description>
     </additional>
   </additionals>
   <contacts>
