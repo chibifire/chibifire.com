@@ -46,19 +46,9 @@ By May 2022, I had a prototype up and running, albeit with 300,000 lines of code
 By July 2024, the code was functional but still had five significant bugs, and it was merged into the Godot engine in November 2024. This merge caused substantial issues, specifically breaking version 4.4 dev 6. Despite the struggles, the line count for the manifold CSG had reduced to 20,000 lines. Now, the manifold site lists integration with various platforms, including Godot, Babylon.js, and several CAD software solutions.</description>
     </additional>
     <additional>
-      <title>GDC 2024: Retrospective</title>
-      <link>https://godotengine.org/article/gdc-2024-retrospective/</link>
-      <description>The team has returned from GDC, and it's time to share the experiences and memories made. We hope our absence wasn't too hard on you!</description>
-    </additional>
-    <additional>
       <title>Introducing the improved ufbx importer in Godot 4.3</title>
       <link>https://godotengine.org/article/introducing-the-improved-ufbx-importer-in-godot-4-3/</link>
       <description>Thanks to a very welcome contribution by Samuli Raivio (bqqbarbhg) and Ernest Lee (fire), Godot 4.3 now includes native .fbx support. This was made possible using Samuli’s free and open-source ufbx single-file .fbx library. The ufbx importer will be used by default for all newly imported .fbx files in Godot 4.3.</description>
-    </additional>
-    <additional>
-      <title>Godot Has A New FBX Importer... And It's FASSSSSST!</title>
-      <link>http://www.youtube.com/watch?v=TGszmac4Y2k</link>
-      <description>In the forthcoming Godot 4.3 release, a significant new feature is being introduced - FBX support. You might be thinking, "But Mike, doesn't Godot already have FBX support?" Yes, it does. However, this one is different in three ways...</description>
     </additional>
     <additional>
       <title>Introducing Godot Sandbox</title>
@@ -66,29 +56,9 @@ By July 2024, the code was functional but still had five significant bugs, and i
       <description>In-editor scripting and sandboxing for Godot </description>
     </additional>
     <additional>
-      <title>Godot Foundation Update 2023</title>
-      <link>https://godotengine.org/article/godot-foundation-update-2023/</link>
-      <description>The past year has been a landmark one for the Godot Foundation.</description>
-    </additional>
-    <additional>
       <title>Introducing the Godot glTF2 Scene exporter</title>
       <link>https://godotengine.org/article/introducing-the-godot-gltf-2-0-scene-exporter</link>
       <description>We hope that this makes our lives better with asset pipelines for 3D</description>
-    </additional>
-    <additional>
-      <title>V-Sekai Social VR</title>
-      <description>V-Sekai is a community of enthusiasts building a next-generation social and #gaming VR #platform powered by the Godot Engine.</description>
-      <link>https://github.com/V-Sekai</link>
-    </additional>
-    <additional>
-      <title>Open Metaverse Interoperability</title>
-      <description>Protocols for interoperable virtual worlds</description>
-      <link>https://github.com/omigroup/OMI</link>
-    </additional>
-    <additional>
-      <title>Godot Engine</title>
-      <description>An open-source game engine.</description>
-      <link>https://godotengine.org</link>
     </additional>
   </additionals>
   <histories>
