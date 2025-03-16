@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Native FBX Support</title>
+  <title>Native FBX Support for 3D Import</title>
   <website>https://github.com/godotengine/godot</website>
 
   <description>Implemented ufbx importer in Godot 4.3 with Samuli Raivio for seamless open-source FBX workflows</description>

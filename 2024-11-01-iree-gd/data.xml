@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Godot IREE</title>
+  <title>Godot IREE Machine Learning Runtimes</title>
   <website>https://github.com/iree-gd/iree.gd</website>
 
   <description>Coordinated integration for executing pre-trained machine learning models within the engine</description>

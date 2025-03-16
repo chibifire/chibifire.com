@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
-  <title>Godot CSG with Robust Manifold</title>
+  <title>Godot CSG with Robust Manifold for Water Tight 3D Geometry Kernels</title>
   <website>https://github.com/godotengine/godot</website>
 
   <description>Enabled robust mesh boolean operations in Godot 4.4 through collaboration with the Manifold team.</description>

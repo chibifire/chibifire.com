@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <product>
-  <title>Godot Engine VRM</title>
+  <title>Godot Engine VRM for Portable 3D Avatars</title>
   <website>https://github.com/V-Sekai/godot-vrm</website>
 
   <description>Support VRM avatars in Godot Engine.</description>

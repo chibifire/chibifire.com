@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <product>
-  <title>Godot Engine Hydro</title>
+  <title>Godot Engine Hydro for Water Simulation</title>
   <website>https://github.com/godot-extended-libraries/hydro</website>
 
   <description>Hydro is a module for Godot Engine 4.0 which allows rigid bodies to behave realistically in water.</description>

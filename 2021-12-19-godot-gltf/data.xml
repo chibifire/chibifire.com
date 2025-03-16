@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <product>
-  <title>Godot Engine GLTF</title>
+  <title>Godot Engine glTF2 For Portable 3D Formats</title>
   <website>https://github.com/godotengine/godot</website>
 
   <description>Godot Engine GLTF Support</description>
