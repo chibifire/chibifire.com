@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <product>
   <title>Mektek Studios | Stompy Bot | Systems Professional</title>
+
+  <description>Heavy Gear Assault is a mecha science fiction game based on Unreal Engine 4</description>
+
   <features>
     <feature>Build systems on Heavy Gear Assault.</feature>
   </features>
