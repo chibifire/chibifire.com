@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <company>
   <title>Chibifire.com (Pronounced as chee-bee-fire)</title>
-  <based-in>Canada</based-in>
+  <based-in>YVR (Vancouver, BC, Canada)</based-in>
   <founding-date>2004</founding-date>
   <website>https://chibifire.com</website>
-
-  <press-contact>ernest.lee@chibifire.com</press-contact>
-
+  <contacts>
+    <contact>
+      <name>Inquiries</name>
+      <mail>ernest.lee@chibifire.com</mail>
+    </contact>
+  </contacts>
+  
   <analytics>G-4MM20XCEW7</analytics>
-
-  <address>
-    <line>YVR (Vancouver)</line>
-    <line>British Columbia</line>
-    <line>Canada</line>
-  </address>
 
   <socials>
     <social>
