@@ -12,18 +12,6 @@
       <name>Chibifire</name>
       <link>https://linktr.ee/chibifire</link>
     </social>
-    <social>
-      <name>Github @fire</name>
-      <link>https://github.com/fire</link>
-    </social>
-    <social>
-      <name>Twitter @iFiery</name>
-      <link>https://twitter.com/iFiery</link>
-    </social>
-    <social>
-      <name>V-Sekai Discord</name>
-      <link>https://discord.gg/7BQDHesck8</link>
-    </social>
   </socials>
   <description>
     Ernest (iFire) Lee is a Canadian developer specializing in game engine technology, with a focus on the Godot Engine. As a core contributor, he leads the development of Godot's glTF 3D import/export pipeline and collaborates with OMIGROUP to enhance metaverse interoperability, notably through the V-Sekai group's VRM avatar importer.
