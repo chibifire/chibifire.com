@@ -33,7 +33,7 @@ jobs:
       - name: Install and Build Presskit
         run: |
           npm install -g presskit
-          presskit build ${GITHUB_WORKSPACE} --pretty-links --collapse-menu
+          presskit build ${GITHUB_WORKSPACE} --pretty-links
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
