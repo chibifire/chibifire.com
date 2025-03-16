@@ -26,8 +26,7 @@
     </social>
   </socials>
   <description>
-    Meet Ernest (iFire) Lee, a developer based in Canada. Specializing in emerging technologies like game engines, particularly the Godot Engine, he plays a pivotal role in maintaining its glTF 3D pipeline. This includes managing both exporting and importing functionalities. He also works closely with the OMIGROUP to ensure metaverse interoperability and maintain an importer for the portable avatar format VRM in the Godot Engine.
-  </description>
+    Ernest (iFire) Lee is a Canadian developer specializing in game engine technology, with a focus on the Godot Engine. As a core contributor, he leads the development of Godot's glTF 3D import/export pipeline and collaborates with OMIGROUP to enhance metaverse interoperability, notably through the engine's VRM avatar importer.  </description>
   <histories>
     <history>
       <header>Khronos Group | 3D Formats Contributor (glTF/VRM Standards) | 2023–Present</header>
