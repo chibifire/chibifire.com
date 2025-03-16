@@ -37,19 +37,10 @@
       <header>Khronos Group | 3D Formats Contributor (glTF/VRM Standards) | 2023–Present</header>
     </history>
     <history>
-      <header>CSG Manifold Integration: Enabled robust mesh boolean operations in Godot 4.4 through collaboration with the Manifold team, reducing codebase from 300k to 20k lines.
-
-      Native FBX Support: Implemented ufbx importer in Godot 4.3 with Samuli Raivio for seamless open-source FBX workflows.
-
-      Godot IREE: Coordinated ntegration for executing pre-trained machine learning models within the engine.
-
-      glTF2 Scene Exporter: Revolutionized Godot's 3D asset interoperability with industry-standard export capabilities.</header>
+      <header>V-Sekai Social VR | 2021 - present</header>
     </history>
     <history>
       <header>Godot Engine | Core 3D Pipeline Coordinator (Animation/Import Systems) | 2017–Present</header>
-    </history>
-    <history>
-      <header>Offworld Industries | DevOps Engineer (CI/CD Pipelines, Unreal Engine 4 Migration) | 2016–2018 | Mektek Studios | Backend Systems Developer (Heavy Gear Assault Infrastructure) | 2014–2016</header>
     </history>
   </histories>
 </company>

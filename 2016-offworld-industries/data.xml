@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Offworld Industries - Squad</title>
+  <website>https://en.wikipedia.org/wiki/Squad_(video_game)</website>
+
+  <description>Squad is a realism-based military tactical first-person shooter video game developed and published by Canadian indie developer Offworld Industries.</description>
+
+  <features>
+    <feature>Continuously delivered (CICD) Squad, handled Unreal Engine 4 upgrades, managed Perforce version control and administrated information technologies.s</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>Squad</title>
+      <description>Squad is a tactical FPS that provides authentic combat experiences through teamwork, communication, and realistic combat.</description>
+      <link>https://store.steampowered.com/app/393380/Squad/</link>
+    </additional>
+  </additionals>
+</product>

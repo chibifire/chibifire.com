@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Godot CSG with Robust Manifold</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Enabled robust mesh boolean operations in Godot 4.4 through collaboration with the Manifold team.</description>
+
+  <features>
+    <feature>Reducing Manifold codebase from 300k to 20k lines</feature>
+    <feature>Integrated with existing Godot Engine CSG api.</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>Manifold</title>
+      <description>Geometry library for topological robustness</description>
+      <link>https://github.com/elalish/manifold</link>
+    </additional>
+  </additionals>
+</product>

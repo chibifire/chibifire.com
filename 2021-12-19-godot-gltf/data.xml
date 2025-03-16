@@ -8,8 +8,9 @@
   <features>
     <feature>3D format</feature>
     <feature>Buffer based runtime import</feature>
+    <feature>Scene Exporter</feature>
+    <feature>Asset interoperability with industry-standard export capabilities</feature>
   </features>
-
   <credits>
     <credit>
       <person>K. S. Ernest (iFire) Lee</person>

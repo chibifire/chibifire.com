@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Godot IREE</title>
+  <website>https://github.com/iree-gd/iree.gd</website>
+
+  <description>Coordinated integration for executing pre-trained machine learning models within the engine</description>
+
+  <features>
+    <feature>Support Vulkan and Metal execution of machine learning models</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>IREE</title>
+      <description>A retargetable MLIR-based machine learning compiler and runtime toolkit.</description>
+      <link>https://github.com/iree-org/iree</link>
+    </additional>
+  </additionals>
+</product>

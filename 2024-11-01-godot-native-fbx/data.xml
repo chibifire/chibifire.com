@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>Native FBX Support</title>
+  <website>https://github.com/godotengine/godot</website>
+
+  <description>Implemented ufbx importer in Godot 4.3 with Samuli Raivio for seamless open-source FBX workflows</description>
+
+  <features>
+    <feature>Maya Support</feature>
+    <feature>3d Max Geometric Pivots</feature>
+  </features>
+
+  <additionals>
+    <additional>
+      <title>Manifold</title>
+      <description>Geometry library for topological robustness</description>
+      <link>https://github.com/elalish/manifold</link>
+    </additional>
+  </additionals>
+</product>
