@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang=en><head>
+<meta charset=utf-8>
+<title>the studio and the shuttle</title>
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+:root {
+  --night: #1c1638;
+  --nightlow: #10091f;
+  --candle: #efd7a7;
+  --parchment: #ede1c1;
+  --parchment-lo: #d9ca9f;
+  --gold: #d4a94e;
+  --gold-lo: #a17f2d;
+  --brass: #a8c1d4;
+  --brass-lo: #6b8ba3;
+  --starlight: #cddcf0;
+  --ink: #2a1f11;
+}
+html { color-scheme: dark; }
+body {
+  background:
+    radial-gradient(1000px 700px at 22% 20%, #3b2e5e 0%, transparent 55%),
+    radial-gradient(900px 700px at 78% 30%, #1c2b48 0%, transparent 55%),
+    linear-gradient(180deg, var(--night) 0%, var(--nightlow) 100%);
+  color: var(--parchment);
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-size: 17px; line-height: 1.55;
+  margin: 0; min-height: 100vh;
+}
+.stage { max-width: 1040px; margin: 0 auto; padding: 44px 24px 96px; }
+
+.banner { text-align: center; letter-spacing: 0.24em; font-family: "Cinzel", serif; }
+.banner .sigil { color: var(--gold); font-size: 12px; margin-bottom: 8px; letter-spacing: 0.32em; }
+.banner h1 { font-size: 38px; font-weight: 700; margin: 0; letter-spacing: 0.32em; }
+.banner .amp { color: var(--gold); font-family: "Cormorant Garamond", serif; font-style: italic; font-weight: 500; margin: 0 0.4em; }
+.banner .sub { color: var(--parchment-lo); font-size: 13px; margin-top: 8px; letter-spacing: 0.32em; font-style: italic; font-family: "Cormorant Garamond", serif; }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 36px; }
+.panel { position: relative; padding: 28px 32px 26px; color: var(--ink); min-height: 240px; }
+.studio { background: linear-gradient(180deg, var(--parchment) 0%, var(--candle) 100%); }
+.shuttle { background: linear-gradient(180deg, #e2ecf5 0%, #cddcf0 100%); }
+.panel .frame { position: absolute; inset: 0; pointer-events: none; }
+.panel .frame svg { display: block; width: 100%; height: 100%; }
+
+.panel h2 {
+  font-family: "Cinzel", serif; font-weight: 500; font-size: 12px;
+  letter-spacing: 0.28em; margin: 0 0 12px;
+  border-bottom: 1px solid rgba(42,31,17,0.18); padding-bottom: 6px;
+}
+.studio h2 { color: var(--gold-lo); }
+.shuttle h2 { color: var(--brass-lo); }
+.panel p { margin: 8px 0; font-size: 15.5px; }
+.panel .flavor { font-style: italic; color: rgba(42,31,17,0.7); }
+
+.cast { display: flex; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+.stand {
+  width: 60px; height: 90px; position: relative;
+  display: flex; align-items: flex-end; justify-content: center;
+  padding-bottom: 6px;
+  font-family: "JetBrains Mono", monospace; font-size: 10px;
+  background: repeating-linear-gradient(180deg, rgba(42,31,17,0.05) 0px, rgba(42,31,17,0.05) 1px, transparent 1px, transparent 4px);
+  border: 1px dashed rgba(42,31,17,0.35);
+  color: rgba(42,31,17,0.4);
+}
+.stand.occupied {
+  background: linear-gradient(180deg, rgba(212,169,78,0.18) 0%, rgba(212,169,78,0.08) 100%);
+  border: 1px solid var(--gold-lo);
+  color: var(--gold-lo);
+}
+.stand .figure {
+  position: absolute; top: 6px; left: 50%; transform: translateX(-50%);
+  font-size: 22px; color: var(--gold-lo); font-family: serif;
+}
+
+.departures { margin-top: 14px; font-family: "JetBrains Mono", monospace; font-size: 12px; color: var(--ink); }
+.departures .row { display: grid; grid-template-columns: 60px 1fr 70px; gap: 10px; padding: 4px 0; border-bottom: 1px solid rgba(107,139,163,0.25); }
+.departures .row:last-child { border-bottom: none; }
+.departures .row .t { color: var(--brass-lo); }
+.departures .row .dest { color: var(--ink); }
+.departures .row .st { color: var(--brass-lo); text-align: right; text-transform: uppercase; letter-spacing: 0.1em; }
+
+.command {
+  grid-column: 1 / -1; text-align: center; padding: 34px 24px 4px;
+}
+.cta {
+  display: inline-block; padding: 15px 44px;
+  font-family: "Cinzel", serif; font-weight: 700; font-size: 15px;
+  letter-spacing: 0.28em; color: var(--night); background: var(--gold);
+  text-decoration: none; border: 2px solid var(--gold);
+  box-shadow: 0 0 0 4px var(--night), 0 0 0 5px var(--gold);
+  transition: transform 80ms ease-out;
+}
+.cta:hover { transform: translateY(-1px); }
+.cta:active { transform: translateY(1px); }
+.command .sub { margin-top: 14px; font-size: 13px; color: var(--parchment-lo); letter-spacing: 0.1em; font-style: italic; }
+
+.correspondence {
+  grid-column: 1 / -1; margin-top: 28px; padding-top: 18px;
+  border-top: 1px solid rgba(212,169,78,0.22);
+}
+.correspondence h3 { font-family: "Cinzel", serif; font-size: 11px; letter-spacing: 0.28em; color: var(--gold); font-weight: 500; margin: 0 0 12px; }
+.correspondence .letter {
+  background: rgba(237,225,193,0.05);
+  border-left: 2px solid var(--gold-lo);
+  padding: 10px 14px;
+  margin: 8px 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 14.5px;
+}
+.correspondence .letter .when { font-family: "JetBrains Mono", monospace; font-size: 11px; color: var(--gold-lo); letter-spacing: 0.08em; }
+.correspondence .letter .body { display: block; margin-top: 4px; color: var(--parchment); }
+
+footer { margin-top: 60px; text-align: center; font-size: 12px; color: rgba(237,225,193,0.5); letter-spacing: 0.14em; font-family: "Cinzel", serif; }
+footer a { color: var(--gold); text-decoration: none; }
+footer a:hover { color: var(--parchment); }
+</style>
+</head><body><div class=stage>
+
+  <div class=banner>
+    <div class=sigil>◆ WEFTSPUN ◆ INTERACTOR ◆</div>
+    <h1>THE STUDIO<span class=amp>&amp;</span>THE SHUTTLE</h1>
+    <div class=sub>where a traveler is made, and how a traveler travels</div>
+  </div>
+
+  <div class=grid>
+
+    <div class="panel studio">
+      <span class=frame><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><defs><g id="c"><path d="M0 0 L18 0 L18 3 L3 3 L3 18 L0 18 Z" fill="#d4a94e"/><path d="M0 0 L14 0 L14 1.5 L1.5 1.5 L1.5 14 L0 14 Z" fill="#a17f2d"/></g></defs><use href="#c" x="0" y="0"/><use href="#c" x="100" y="0" transform="scale(-1 1) translate(-200 0)"/><use href="#c" x="0" y="100" transform="scale(1 -1) translate(0 -200)"/><use href="#c" x="100" y="100" transform="scale(-1 -1) translate(-200 -200)"/><rect x="0" y="0" width="100" height="100" fill="none" stroke="#a17f2d" stroke-width="0.5" vector-effect="non-scaling-stroke"/></svg></span>
+      <h2>The Studio</h2>
+      <p>Home. A work-table where a traveler is commissioned from a language prompt, and stands where the finished cast rests between journeys.</p>
+      <div class=cast>
+        <div class="stand occupied"><span class=figure>♛</span></div>
+        <div class=stand>·</div>
+        <div class=stand>·</div>
+        <div class=stand>·</div>
+        <div class=stand>·</div>
+      </div>
+    </div>
+
+    <div class="panel shuttle">
+      <span class=frame><svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true"><defs><g id="c"><path d="M0 0 L18 0 L18 3 L3 3 L3 18 L0 18 Z" fill="#a8c1d4"/><path d="M0 0 L14 0 L14 1.5 L1.5 1.5 L1.5 14 L0 14 Z" fill="#6b8ba3"/></g></defs><use href="#c" x="0" y="0"/><use href="#c" x="100" y="0" transform="scale(-1 1) translate(-200 0)"/><use href="#c" x="0" y="100" transform="scale(1 -1) translate(0 -200)"/><use href="#c" x="100" y="100" transform="scale(-1 -1) translate(-200 -200)"/><rect x="0" y="0" width="100" height="100" fill="none" stroke="#6b8ba3" stroke-width="0.5" vector-effect="non-scaling-stroke"/></svg></span>
+      <h2>The Shuttle</h2>
+      <p>Where you go. The vessel that carries a traveler out to a world &mdash; movement, not teleportation, so runs are scheduled and a journey has a length.</p>
+      <div class=departures>
+        <div class=row><span class=t>next</span><span class=dest>&mdash; awaiting first commission &mdash;</span><span class=st>hold</span></div>
+        <div class=row><span class=t>&mdash;&mdash;</span><span class=dest>&nbsp;</span><span class=st>&nbsp;</span></div>
+        <div class=row><span class=t>&mdash;&mdash;</span><span class=dest>&nbsp;</span><span class=st>&nbsp;</span></div>
+        <div class=row><span class=t>&mdash;&mdash;</span><span class=dest>&nbsp;</span><span class=st>&nbsp;</span></div>
+      </div>
+    </div>
+
+    <div class=command>
+      <a class=cta href="/oauth/authorize?client_id=cli&response_type=code&redirect_uri=http://localhost/cb">BOARD THE SHUTTLE</a>
+      <div class=sub>&mdash; sign in with GitHub. The first commission is on the house.</div>
+    </div>
+
+    <div class=correspondence>
+      <h3>THE CORRESPONDENCE</h3>
+      <div class=letter>
+        <span class=when>t &minus; 00:00</span>
+        <span class=body>The studio doors open. The work-table stands ready; the cast at rest along the wall; the shuttle awaits its first passenger.</span>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    RFDs <a href="https://weftspun.github.io/request-for-discussion/rfd/2133-the-pool-rents-from-the-spot-book/">2133</a> ·
+    <a href="https://weftspun.github.io/request-for-discussion/rfd/2134-cluster-tls-is-decided-before-data/">2134</a> ·
+    <a href="https://weftspun.github.io/request-for-discussion/rfd/2135-checks-run-where-the-credentials-already-are/">2135</a> ·
+    <a href="https://weftspun.github.io/request-for-discussion/rfd/2136-the-gacha-critical-path/">2136</a> ·
+    <a href="https://weftspun.github.io/request-for-discussion/rfd/2138-interactor-shuttle-merges-spot-broker-and-uro/">2138</a>
+  </footer>
+
+</div></body></html>

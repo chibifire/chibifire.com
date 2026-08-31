@@ -1,0 +1,17 @@
+{
+	admin off
+	auto_https off
+}
+
+:8080 {
+	root * /srv
+	encode gzip zstd
+	file_server {
+		precompressed gzip
+	}
+	# Clean URL for the presskit home.
+	handle /press {
+		redir /press/ permanent
+	}
+	header /press/* Cache-Control "public, max-age=3600"
+}
