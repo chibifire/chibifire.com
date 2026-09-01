@@ -115,8 +115,26 @@ body {
 footer { margin-top: 60px; text-align: center; font-size: 12px; color: rgba(237,225,193,0.5); letter-spacing: 0.14em; font-family: "Cinzel", serif; }
 footer a { color: var(--gold); text-decoration: none; }
 footer a:hover { color: var(--parchment); }
+
+.press-bookmark {
+  position: fixed; top: 0; right: 44px; z-index: 20;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 12px 18px 22px;
+  font-family: "Cinzel", serif; font-weight: 700; font-size: 12px;
+  letter-spacing: 0.24em; text-transform: uppercase;
+  color: var(--night); text-decoration: none;
+  background: linear-gradient(180deg, var(--gold) 0%, var(--gold-lo) 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 50% calc(100% - 12px), 0 100%);
+  filter: drop-shadow(0 3px 8px rgba(0,0,0,0.45));
+  transition: transform 120ms ease-out, filter 120ms ease-out;
+}
+.press-bookmark:hover { transform: translateY(3px); filter: drop-shadow(0 5px 10px rgba(0,0,0,0.55)); }
+.press-bookmark .mark { opacity: 0.75; font-family: "Cormorant Garamond", serif; font-size: 14px; font-weight: 500; letter-spacing: 0; }
+@media (max-width: 520px) {
+  .press-bookmark { right: 16px; padding: 10px 14px 18px; font-size: 11px; letter-spacing: 0.2em; }
+}
 </style>
-</head><body><a href="/press/" style="display:block;text-decoration:none;background:linear-gradient(90deg,#d4a94e,#a17f2d);color:#1c1638;font-family:'Cinzel',serif;font-size:13px;letter-spacing:.18em;text-transform:uppercase;text-align:center;padding:11px 16px;font-weight:700;border-bottom:2px solid #1c1638">The Press Kit &mdash; selected work &amp; history &nbsp;&rarr;</a><div class=stage>
+</head><body><a class=press-bookmark href="/press/" aria-label="Press Kit — selected work and history"><span class=mark>◆</span><span>Press Kit</span></a><div class=stage>
 
   <div class=banner>
     <div class=sigil>◆ WEFTSPUN ◆ INTERACTOR ◆</div>
