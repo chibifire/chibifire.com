@@ -1,0 +1,51 @@
+# Builds the same tree the Dockerfile serves (/ = landing, /press = presskit)
+# and deploys it to GitHub Pages, which is what chibifire.com's DNS points at.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Render presskit and assemble site
+        run: |
+          python3 render_press.py
+          test -f build/press/index.html
+          mkdir -p site
+          cp landing-index.html site/index.html
+          cp -R build/press site/press
+          test -f site/index.html
+          echo "files: $(find site -type f | wc -l)"
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-24.04
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
