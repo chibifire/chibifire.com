@@ -1,6 +1,7 @@
-# Deploys the presskit tree kept on the gh-pages branch (the pixelnest
-# presskit.html build) to GitHub Pages, which is what chibifire.com's DNS
-# points at. That tree is published as it stands; nothing is rebuilt.
+# Builds the presskit from data.xml and the project folders on every push to
+# main and deploys it to GitHub Pages, which is what chibifire.com's DNS
+# points at. presskit.html 0.13.0 is the version the site was built with;
+# its sharp 0.23 only installs on Node 14, so the job pins both.
 name: Pages
 
 on:
@@ -18,24 +19,31 @@ concurrency:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: gh-pages
-          path: site
-      - name: Check the presskit tree
+          fetch-depth: 0
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "14"
+      - name: Build the presskit
         run: |
-          test -f site/index.html
-          grep -q '<title>Chibifire.com' site/index.html
-          if grep -rli weftspun site --exclude-dir=.git; then
-            echo "gh-pages tree mentions weftspun" >&2
+          npm install -g presskit@0.13.0
+          presskit build . --pretty-links
+      - name: Check the build
+        run: |
+          test -f build/index.html
+          grep -q '<title>Chibifire.com' build/index.html
+          grep -q 'presskit.html 0.13.0' build/index.html
+          if grep -rli weftspun build; then
+            echo "the presskit mentions weftspun" >&2
             exit 1
           fi
-          echo "files: $(find site -type f -not -path 'site/.git/*' | wc -l)"
+          echo "files: $(find build -type f | wc -l)"
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: site
+          path: build
 
   deploy:
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
