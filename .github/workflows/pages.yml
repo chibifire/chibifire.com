@@ -1,5 +1,6 @@
-# Builds the same tree the Dockerfile serves (/ = landing, /press = presskit)
-# and deploys it to GitHub Pages, which is what chibifire.com's DNS points at.
+# Deploys the presskit tree kept on the gh-pages branch (the pixelnest
+# presskit.html build) to GitHub Pages, which is what chibifire.com's DNS
+# points at. That tree is published as it stands; nothing is rebuilt.
 name: Pages
 
 on:
@@ -20,18 +21,18 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
-      - uses: actions/setup-python@v7
         with:
-          python-version: "3.12"
-      - name: Render presskit and assemble site
+          ref: gh-pages
+          path: site
+      - name: Check the presskit tree
         run: |
-          python3 render_press.py
-          test -f build/press/index.html
-          mkdir -p site
-          cp landing-index.html site/index.html
-          cp -R build/press site/press
           test -f site/index.html
-          echo "files: $(find site -type f | wc -l)"
+          grep -q '<title>Chibifire.com' site/index.html
+          if grep -rli weftspun site --exclude-dir=.git; then
+            echo "gh-pages tree mentions weftspun" >&2
+            exit 1
+          fi
+          echo "files: $(find site -type f -not -path 'site/.git/*' | wc -l)"
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
